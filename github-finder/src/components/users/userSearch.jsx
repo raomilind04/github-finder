@@ -34,7 +34,7 @@ function UserSearch() {
               <input
                 type="text"
                 placeholder="Search…"
-                className="input input-bordered input-lg w-full ml-40"
+                className="input input-bordered input-lg w-full "
                 value={text}
                 onChange={handleChange}
               />

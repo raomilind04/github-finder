@@ -9,7 +9,7 @@ function Alert() {
       className={`grid grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-8 mb-4`}
       style={{ visibility: alert!== null ? "visible" : "hidden" }}
     >
-      <div className="alert alert-error ml-40 w-3/4">
+      <div className="alert alert-error w-3/4">
         <div>
           <svg
             fill="none"
