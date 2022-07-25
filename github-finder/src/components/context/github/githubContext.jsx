@@ -35,6 +35,13 @@ export const GithubProvider= ({children})=> {
             type: "GET_USERS", 
             payload: items
         })
+    }; 
+ 
+    const clearUsers= async ()=> {
+
+        dispatch({
+            type: "CLEAR_USERS"
+        })
     }
 
     return (
@@ -42,7 +49,8 @@ export const GithubProvider= ({children})=> {
             {
                 users: state.users,
                 loading: state.loading,
-                searchUsers
+                searchUsers, 
+                clearUsers
             }
         }>
             {children}
